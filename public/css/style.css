@@ -1,0 +1,137 @@
+body {
+    overflow-x: hidden;
+    background-color: #91ddca;
+  }
+
+h1{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 350%;
+}
+  
+li{
+    font-size: 120%;
+}
+
+/* For each text on the navigation */
+.navbar-item{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Color of links in the navigation */
+.color-green {
+    background-color: #478978;
+}
+.color-green a{
+    color: white;
+    margin-left: 1%;
+}
+
+/* Monitor Page */
+.subheader-monitor{
+    font-size: 150%;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+
+.margins{
+    margin: 2%;
+}
+
+select, input {
+    border: black solid 2px;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Buttons */
+
+.add-button {
+    background-color: #426A5A;
+    color: white;
+    font-weight: bold;
+    border: black solid 2px;
+}
+
+.add-button:hover {
+    background-color: #478978;
+}
+
+/* Table */
+#monitor {
+    text-align: center;
+    overflow-x: auto;
+    width: 100%;
+}
+
+table, td {
+    border: solid black 2px;
+    background-color: white;
+}
+
+th {
+    border: solid black 2px;
+    background-color: #D9D9D9;
+}
+
+.entry-buttons {
+    background-color: #D1462F;
+    color: white;
+    font-weight: bold;
+    width: 50%;
+}
+
+.entry-buttons:hover {
+    background-color: #EF6F6C;
+}
+
+.spans span {
+    font-weight: 600;
+}
+
+#nemail {
+    margin-left: 2%;
+    margin-right: 2%;
+    color: white;
+}
+#logout {
+    font-weight: bold;
+    color: white;
+    background-color: #22577A;
+    border: solid black 3px;
+}
+#logout:hover {
+    background-color: #38A3A5;
+}
+
+.spacer > * + * {
+    margin-left: 3%;
+}
+.trash {
+    background-color: #D1462F;
+}
+.trash:hover {
+    background-color: #EF6F6C;
+}
+.refresh {
+    background-color: #478978;
+}
+.refresh:hover {
+    background-color: #468a99
+}
+
+/* For the Help Page */
+.font-size-p {
+    font-size: 130%;
+}
+
+#help {
+    font-weight: bold;
+}

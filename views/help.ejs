@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bed2Transit - Help</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg color-green">
+        <a class="navbar-brand" href="/">Bed2Transit</a>
+        <a class="navbar-item" href="/monitor">Monitor</a>
+    </nav>
+
+    <h1>Help</h1>
+    <div class="margins">
+        <p class="font-size-p">
+            Confused about any of the columns in the monitor? Read their section below.
+        </p><br>
+        <h2>ID</h2>
+        <p class="font-size-p">
+            This column simply helps the website function. Users do not have to worry about this column.
+        </p><br>
+        <h2>Type</h2>
+        <p class="font-size-p">
+            This column states whether the row is for a bus or BART station. It will say either 'bus' or 'bart'.
+        </p><br>
+        <h2>Line</h2>
+        <p class="font-size-p">
+            <b>For buses: </b>Tells what bus line/route the row is for.<br>
+            <b>For BART: </b>Tells which trains are at the selected BART station.
+        </p><br>
+        <h2>Direction</h2>
+        <p class="font-size-p">
+            <b>For buses: </b>The column says the direction or final destination that the bus is heading to. Example: "To Downtown Berkeley".<br>
+            <b>For BART: </b>The column will say either south or north.
+        </p><br>
+        <h2>Stop/Station</h2>
+        <p class="font-size-p">
+            <b>For buses: </b>The name of the bus stop. Example: "Broadway & 15th St".<br>
+            <b>For BART: </b>The name of the BART station.
+        </p><br>
+        <h2>Arrival</h2>
+        <p class="font-size-p">
+            Time units is in minutes.<br>
+            <b>For buses: </b>Predictions of the arrival times of buses to the selected stop. If it says "N/A" that means some buses were probably cancelled or
+            that the last bus of the day left.<br>
+            <b>For BART: </b>Predictions of the arrival times of trains to the selected station. Multiple trains can show up, so a train's
+            prediction is on the same line while a different train's prediction will start on another line.
+        </p>
+        <br>
+        <h2>Possible</h2>
+        <p class="font-size-p">
+            <b>For buses: </b>Tells you whether or not you can make it to each of the arrival predictions. Factors included are the arrival time, 
+            minutes it takes you to walk there, and time it takes you to get ready. Below will be a list that shows the values that might be shown and what they mean.
+        </p>
+        <ul>
+            <li>N/A - There are no predictions for this bus. This means that either some buses were cancelled or that the last bus for the day has left.</li>
+            <li>No time - Walking 25% faster or getting ready 25% faster still won't make you arrive on time.</li>
+            <li>Yes. Extra # - You can arrive on time and have an extra amount of minutes left until the bus arrives.</li>
+            <li>Yes. Walk +25% - Walking 25% faster would allow you to make it on time.</li>
+            <li>Yes. Ready +25% - Getting ready 25% faster would allow you to make it on time.</li>
+        </ul>
+        <p class="font-size-p">
+            <b>For BART: </b>The possible column is not available for BART rows because there are multiple trains and too much information.
+        </p>
+        <br>
+        <h2>Min. to walk</h2>
+        <p class="font-size-p">
+            <b>For buses: </b>This column is a dropdown menu that allows you to edit the amount of minutes it takes you to walk to the bus stop.
+            The selected value is used to calculate the Possible column.<br>
+            <b>For BART: </b>The Mins. to walk column is not available for BART rows because its only purpose is to calculate the Possible column.
+        </p><br>
+        <h2>Actions</h2>
+        <p class="font-size-p">
+            In this column there is a delete button and a refresh button. The delete button will delete the row while the refresh button will update the
+            'Possible' and 'Arrival' columns.
+        </p>
+        <hr>
+        <p class="font-size-p">
+            Found a bug/error or want to send feedback? Send an email to octaviolomeli.apps@gmail.com
+        </p>
+    </div>
+</body>
+</html>

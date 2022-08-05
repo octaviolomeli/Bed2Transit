@@ -1,0 +1,572 @@
+{
+    "12TH": {
+      "Name": "12th St. Oakland City Center",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch",
+        "Berryessa/North San Jose to Richmond",
+        "Millbrae/Daly City to Richmond"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae",
+        "Richmond to Berryessa/North San Jose",
+        "Richmond to Daly City/Millbrae"
+      ]
+    },
+    "16TH": {
+      "Name": "16th St. Mission",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch",
+        "Daly City to Berryessa/North San Jose",
+        "Millbrae/Daly City to Richmond",
+        "Daly City to Dublin/Pleasanton"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae",
+        "Berryessa/North San Jose to Daly City",
+        "Richmond to Daly City/Millbrae",
+        "Dublin/Pleasanton to Daly City"
+      ]
+    },
+    "19TH": {
+      "Name": "19th St. Oakland",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch",
+        "Berryessa/North San Jose to Richmond",
+        "Millbrae/Daly City to Richmond"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae",
+        "Richmond to Berryessa/North San Jose",
+        "Richmond to Daly City/Millbrae"
+      ]
+    },
+    "24TH": {
+      "Name": "24th St. Mission",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch",
+        "Daly City to Berryessa/North San Jose",
+        "Millbrae/Daly City to Richmond",
+        "Daly City to Dublin/Pleasanton"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae",
+        "Berryessa/North San Jose to Daly City",
+        "Richmond to Daly City/Millbrae",
+        "Dublin/Pleasanton to Daly City"
+      ]
+    },
+    "ANTC": {
+      "Name": "Antioch",
+      "north_routes": [],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae"
+      ]
+    },
+    "ASHB": {
+      "Name": "Ashby",
+      "north_routes": [
+        "Berryessa/North San Jose to Richmond",
+        "Millbrae/Daly City to Richmond"
+      ],
+      "south_routes": [
+        "Richmond to Berryessa/North San Jose",
+        "Richmond to Daly City/Millbrae"
+      ]
+    },
+    "BALB": {
+      "Name": "Balboa Park",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch",
+        "Daly City to Berryessa/North San Jose",
+        "Millbrae/Daly City to Richmond",
+        "Daly City to Dublin/Pleasanton"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae",
+        "Berryessa/North San Jose to Daly City",
+        "Richmond to Daly City/Millbrae",
+        "Dublin/Pleasanton to Daly City"
+      ]
+    },
+    "BAYF": {
+      "Name": "Bay Fair",
+      "north_routes": [
+        "Berryessa/North San Jose to Richmond",
+        "Berryessa/North San Jose to Daly City",
+        "Dublin/Pleasanton to Daly City"
+      ],
+      "south_routes": [
+        "Richmond to Berryessa/North San Jose",
+        "Daly City to Berryessa/North San Jose",
+        "Daly City to Dublin/Pleasanton"
+      ]
+    },
+    "BERY": {
+      "Name": "Berryessa/North San Jose",
+      "north_routes": [
+        "Berryessa/North San Jose to Richmond",
+        "Berryessa/North San Jose to Daly City"
+      ],
+      "south_routes": []
+    },
+    "CAST": {
+      "Name": "Castro Valley",
+      "north_routes": [
+        "Daly City to Dublin/Pleasanton"
+      ],
+      "south_routes": [
+        "Dublin/Pleasanton to Daly City"
+      ]
+    },
+    "CIVC": {
+      "Name": "Civic Center/UN Plaza",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch",
+        "Daly City to Berryessa/North San Jose",
+        "Millbrae/Daly City to Richmond",
+        "Daly City to Dublin/Pleasanton"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae",
+        "Berryessa/North San Jose to Daly City",
+        "Richmond to Daly City/Millbrae",
+        "Dublin/Pleasanton to Daly City"
+      ]
+    },
+    "COLS": {
+      "Name": "Coliseum",
+      "north_routes": [
+        "Berryessa/North San Jose to Richmond",
+        "Berryessa/North San Jose to Daly City",
+        "Dublin/Pleasanton to Daly City"
+      ],
+      "south_routes": [
+        "Richmond to Berryessa/North San Jose",
+        "Daly City to Berryessa/North San Jose",
+        "Daly City to Dublin/Pleasanton",
+        "Coliseum to Oakland Airport"
+      ]
+    },
+    "COLM": {
+      "Name": "Colma",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch",
+        "Millbrae/Daly City to Richmond"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae",
+        "Richmond to Daly City/Millbrae"
+      ]
+    },
+    "CONC": {
+      "Name": "Concord",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae"
+      ]
+    },
+    "DALY": {
+      "Name": "Daly City",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch",
+        "Daly City to Berryessa/North San Jose",
+        "Millbrae/Daly City to Richmond",
+        "Daly City to Dublin/Pleasanton"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae",
+        "Berryessa/North San Jose to Daly City",
+        "Richmond to Daly City/Millbrae",
+        "Dublin/Pleasanton to Daly City"
+      ]
+    },
+    "DBRK": {
+      "Name": "Downtown Berkeley",
+      "north_routes": [
+        "Berryessa/North San Jose to Richmond",
+        "Millbrae/Daly City to Richmond"
+      ],
+      "south_routes": [
+        "Richmond to Berryessa/North San Jose",
+        "Richmond to Daly City/Millbrae"
+      ]
+    },
+    "DUBL": {
+      "Name": "Dublin/Pleasanton",
+      "north_routes": [
+        "Daly City to Dublin/Pleasanton"
+      ],
+      "south_routes": [
+        "Dublin/Pleasanton to Daly City"
+      ]
+    },
+    "DELN": {
+      "Name": "El Cerrito del Norte",
+      "north_routes": [
+        "Berryessa/North San Jose to Richmond",
+        "Millbrae/Daly City to Richmond"
+      ],
+      "south_routes": [
+        "Richmond to Berryessa/North San Jose",
+        "Richmond to Daly City/Millbrae"
+      ]
+    },
+    "PLZA": {
+      "Name": "El Cerrito Plaza",
+      "north_routes": [
+        "Berryessa/North San Jose to Richmond",
+        "Millbrae/Daly City to Richmond"
+      ],
+      "south_routes": [
+        "Richmond to Berryessa/North San Jose",
+        "Richmond to Daly City/Millbrae"
+      ]
+    },
+    "EMBR": {
+      "Name": "Embarcadero",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch",
+        "Daly City to Berryessa/North San Jose",
+        "Millbrae/Daly City to Richmond",
+        "Daly City to Dublin/Pleasanton"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae",
+        "Berryessa/North San Jose to Daly City",
+        "Richmond to Daly City/Millbrae",
+        "Dublin/Pleasanton to Daly City"
+      ]
+    },
+    "FRMT": {
+      "Name": "Fremont",
+      "north_routes": [
+        "Berryessa/North San Jose to Richmond",
+        "Berryessa/North San Jose to Daly City"
+      ],
+      "south_routes": [
+        "Richmond to Berryessa/North San Jose",
+        "Daly City to Berryessa/North San Jose"
+      ]
+    },
+    "FTVL": {
+      "Name": "Fruitvale",
+      "north_routes": [
+        "Berryessa/North San Jose to Richmond",
+        "Berryessa/North San Jose to Daly City",
+        "Dublin/Pleasanton to Daly City"
+      ],
+      "south_routes": [
+        "Richmond to Berryessa/North San Jose",
+        "Daly City to Berryessa/North San Jose",
+        "Daly City to Dublin/Pleasanton"
+      ]
+    },
+    "GLEN": {
+      "Name": "Glen Park",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch",
+        "Daly City to Berryessa/North San Jose",
+        "Millbrae/Daly City to Richmond",
+        "Daly City to Dublin/Pleasanton"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae",
+        "Berryessa/North San Jose to Daly City",
+        "Richmond to Daly City/Millbrae",
+        "Dublin/Pleasanton to Daly City"
+      ]
+    },
+    "HAYW": {
+      "Name": "Hayward",
+      "north_routes": [
+        "Berryessa/North San Jose to Richmond",
+        "Berryessa/North San Jose to Daly City"
+      ],
+      "south_routes": [
+        "Richmond to Berryessa/North San Jose",
+        "Daly City to Berryessa/North San Jose"
+      ]
+    },
+    "LAFY": {
+      "Name": "Lafayette",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae"
+      ]
+    },
+    "LAKE": {
+      "Name": "Lake Merritt",
+      "north_routes": [
+        "Berryessa/North San Jose to Richmond",
+        "Berryessa/North San Jose to Daly City",
+        "Dublin/Pleasanton to Daly City"
+      ],
+      "south_routes": [
+        "Richmond to Berryessa/North San Jose",
+        "Daly City to Berryessa/North San Jose",
+        "Daly City to Dublin/Pleasanton"
+      ]
+    },
+    "MCAR": {
+      "Name": "MacArthur",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch",
+        "Berryessa/North San Jose to Richmond",
+        "Millbrae/Daly City to Richmond"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae",
+        "Richmond to Berryessa/North San Jose",
+        "Richmond to Daly City/Millbrae"
+      ]
+    },
+    "MLBR": {
+      "Name": "Millbrae",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch",
+        "Millbrae/Daly City to Richmond",
+        "ROUTE 13"
+      ],
+      "south_routes": [
+        "Richmond to Daly City/Millbrae"
+      ]
+    },
+    "MLPT": {
+      "Name": "Milpitas",
+      "north_routes": [
+        "Berryessa/North San Jose to Richmond",
+        "Berryessa/North San Jose to Daly City"
+      ],
+      "south_routes": [
+        "Richmond to Berryessa/North San Jose",
+        "Daly City to Berryessa/North San Jose"
+      ]
+    },
+    "MONT": {
+      "Name": "Montgomery St.",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch",
+        "Daly City to Berryessa/North San Jose",
+        "Millbrae/Daly City to Richmond",
+        "Daly City to Dublin/Pleasanton"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae",
+        "Berryessa/North San Jose to Daly City",
+        "Richmond to Daly City/Millbrae",
+        "Dublin/Pleasanton to Daly City"
+      ]
+    },
+    "NBRK": {
+      "Name": "North Berkeley",
+      "north_routes": [
+        "Berryessa/North San Jose to Richmond",
+        "Millbrae/Daly City to Richmond"
+      ],
+      "south_routes": [
+        "Richmond to Berryessa/North San Jose",
+        "Richmond to Daly City/Millbrae"
+      ]
+    },
+    "NCON": {
+      "Name": "North Concord/Martinez",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae"
+      ]
+    },
+    "OAKL": {
+      "Name": "Oakland International Airport",
+      "north_routes": [
+        "Oakland Airport to Coliseum"
+      ],
+      "south_routes": [
+        "Coliseum to Oakland Airport"
+      ]
+    },
+    "ORIN": {
+      "Name": "Orinda",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae"
+      ]
+    },
+    "PITT": {
+      "Name": "Pittsburg/Bay Point",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae"
+      ]
+    },
+    "PCTR": {
+      "Name": "Pittsburg Center",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae"
+      ]
+    },
+    "PHIL": {
+      "Name": "Pleasant Hill/Contra Costa Centre",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae"
+      ]
+    },
+    "POWL": {
+      "Name": "Powell St.",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch",
+        "Daly City to Berryessa/North San Jose",
+        "Millbrae/Daly City to Richmond",
+        "Daly City to Dublin/Pleasanton"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae",
+        "Berryessa/North San Jose to Daly City",
+        "Richmond to Daly City/Millbrae",
+        "Dublin/Pleasanton to Daly City"
+      ]
+    },
+    "RICH": {
+      "Name": "Richmond",
+      "north_routes": [],
+      "south_routes": [
+        "Richmond to Berryessa/North San Jose",
+        "Richmond to Daly City/Millbrae"
+      ]
+    },
+    "ROCK": {
+      "Name": "Rockridge",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae"
+      ]
+    },
+    "SBRN": {
+      "Name": "San Bruno",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch",
+        "Millbrae/Daly City to Richmond"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae",
+        "Richmond to Daly City/Millbrae"
+      ]
+    },
+    "SFIA": {
+      "Name": "San Francisco International Airport",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae",
+        "Millbrae/Daly City to Richmond"
+      ]
+    },
+    "SANL": {
+      "Name": "San Leandro",
+      "north_routes": [
+        "Berryessa/North San Jose to Richmond",
+        "Berryessa/North San Jose to Daly City",
+        "Dublin/Pleasanton to Daly City"
+      ],
+      "south_routes": [
+        "Richmond to Berryessa/North San Jose",
+        "Daly City to Berryessa/North San Jose",
+        "Daly City to Dublin/Pleasanton"
+      ]
+    },
+    "SHAY": {
+      "Name": "South Hayward",
+      "north_routes": [
+        "Berryessa/North San Jose to Richmond",
+        "Berryessa/North San Jose to Daly City"
+      ],
+      "south_routes": [
+        "Richmond to Berryessa/North San Jose",
+        "Daly City to Berryessa/North San Jose"
+      ]
+    },
+    "SSAN": {
+      "Name": "South San Francisco",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch",
+        "Millbrae/Daly City to Richmond"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae",
+        "Richmond to Daly City/Millbrae"
+      ]
+    },
+    "UCTY": {
+      "Name": "Union City",
+      "north_routes": [
+        "Berryessa/North San Jose to Richmond",
+        "Berryessa/North San Jose to Daly City"
+      ],
+      "south_routes": [
+        "Richmond to Berryessa/North San Jose",
+        "Daly City to Berryessa/North San Jose"
+      ]
+    },
+    "WCRK": {
+      "Name": "Walnut Creek",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae"
+      ]
+    },
+    "WARM": {
+      "Name": "Warm Springs/South Fremont",
+      "north_routes": [
+        "Berryessa/North San Jose to Richmond",
+        "Daly City to Berryessa/North San Jose"
+      ],
+      "south_routes": [
+        "Richmond to Berryessa/North San Jose",
+        "Berryessa/North San Jose to Daly City"
+      ]
+    },
+    "WDUB": {
+      "Name": "West Dublin/Pleasanton",
+      "north_routes": [
+        "Daly City to Dublin/Pleasanton"
+      ],
+      "south_routes": [
+        "Dublin/Pleasanton to Daly City"
+      ]
+    },
+    "WOAK": {
+      "Name": "West Oakland",
+      "north_routes": [
+        "Millbrae/SFIA to Antioch",
+        "Daly City to Berryessa/North San Jose",
+        "Millbrae/Daly City to Richmond",
+        "Daly City to Dublin/Pleasanton"
+      ],
+      "south_routes": [
+        "Antioch to SFIA/Millbrae",
+        "Berryessa/North San Jose to Daly City",
+        "Richmond to Daly City/Millbrae",
+        "Dublin/Pleasanton to Daly City"
+      ]
+    }
+  }

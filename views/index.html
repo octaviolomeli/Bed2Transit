@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Bed2Transit - Home</title>
+    </head>
+
+    <body>
+
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-expand-lg color-green">
+            <a class="navbar-brand" href="views/index.html">Bed2Transit</a>
+            <a class="navbar-item" href="/signup">Sign Up</a>
+            <a class="navbar-item" href="/login">Login</a>
+        </nav>
+
+        <!-- Page Header -->
+        <h1>Catch buses & trains on time with<br><b>Bed2Transit</b></h1>
+        <p id="subheader">Monitors multiple bus stops and BART trains to save you time in deciding<br>which stops you can arrive to on time from your bed.</p>
+
+        <div class="row">
+            <div class="col-md-6 margin">
+                <span class="header-section">Notes</span>
+                <ul>
+                    <li><b>Bed2Transit</b> can only monitor buses that run under AC Transit and trains from BART.</li>
+                    <li>Data for AC Transit buses is provided by 511.org, <a href="http://www.511.org/" target="_blank">http://www.511.org/</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    
+
+        <!-- Split the row into two sections -->
+        <div class="row">
+            <div class="col-md-6 margin">
+                <span class="header-section">Easy to use</span>
+                <ol>
+                    <li>Select a bus and bus stop or BART station</li>
+                    <li>Set time it takes you to walk there</li>
+                    <li>Set time it takes you to get ready</li>
+                    <li>Add to list of monitored stops</li>
+                </ol>
+                <a href="/signup" class="to-login"><b>Make an account today!</b></a>
+            </div>
+
+            <!-- Screenshot of monitor -->
+            <div class="col-md-5">
+                <img src="img/website-display.png" id="image">
+            </div>
+            <div class="col-md-1"></div>
+            <br><br>
+        </div>
+
+    </body>
+</html>
