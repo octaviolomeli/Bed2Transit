@@ -14,7 +14,12 @@
     </ul>
 </details>
 <hr>
-#### Monitor Page
-<br>
-![monitor_screenshot](https://github.com/octaviolomeli/Bed2Transit/blob/main/public/img/website-display.png?raw=true)
-<hr>
+<details>
+  <summary>Image of the monitor page</summary>
+  <img src="https://github.com/octaviolomeli/Bed2Transit/blob/main/public/img/website-display.png?raw=true" alt="monitor screenshot">
+</details>
+
+<details>
+  <summary>Image of the home page</summary>
+  <img src="https://github.com/octaviolomeli/Bed2Transit/blob/main/public/img/index-display.png?raw=true" alt="Home page">
+</details>
