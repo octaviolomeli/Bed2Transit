@@ -5,5 +5,11 @@
 </div>
 <hr>
 <details>
-  <summary>Data related to AC Transit is provided by 511.org</summary>
+   APIs used
+  <summary>
+    <ul>
+      <li>Data related to AC Transit is provided by 511.org (Open 511 SIRI API)</li>
+      <li>Data related to BART is provided by the BART API</li>
+    </ul>
+  </summary>
 </details>
