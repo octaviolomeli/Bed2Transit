@@ -15,7 +15,7 @@
 </details>
 <hr>
 <details>
-  <summary>Image of the monitor page</summary>
+  <summary>Partial image of the monitor page</summary>
   <img src="https://github.com/octaviolomeli/Bed2Transit/blob/main/public/img/website-display.png?raw=true" alt="monitor screenshot">
 </details>
 
