@@ -15,5 +15,6 @@
 </details>
 <hr>
 #### Monitor Page
+<br>
 ![monitor_screenshot](https://github.com/octaviolomeli/Bed2Transit/blob/main/public/img/website-display.png?raw=true)
 <hr>
