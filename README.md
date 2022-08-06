@@ -13,3 +13,7 @@
       <li>Data related to BART is provided by the BART API</li>
     </ul>
 </details>
+<hr>
+#### Monitor Page
+![monitor_screenshot](https://github.com/octaviolomeli/Bed2Transit/blob/main/public/img/website-display.png?raw=true)
+<hr>
